@@ -867,7 +867,7 @@ body {
     fill: var(--light);
 }
 
-/* ====== @media screen and (max-width:427px) ======  */
+
 
 @media screen and (max-width:427px) {
     .customers-item:not(:last-child) {
@@ -876,7 +876,13 @@ body {
 
 }
 
-/*======= @media screen and (max-width:767px)===== */
+@media screen and (min-width:428px) and (max-width:767px) {
+
+    .customers-item:nth-child(2n) {
+        margin-left: 16px;
+    }
+}
+
 
 @media screen and (max-width:767px) {
 
@@ -895,10 +901,6 @@ body {
         margin-bottom: 72px;
     }
 
-    .customers-item:nth-child(2n) {
-        margin-left: 16px;
-    }
-
     .backdrop {
         padding: 96px 18px 114px 18px;
     }
@@ -915,7 +917,6 @@ body {
     }
 }
 
-/* === @media screen and (min-width:768px) and (max-width:1199px) === */
 
 @media screen and (min-width:768px) and (max-width:1199px) {
     .about-item:nth-child(2n + 1) {
@@ -949,7 +950,6 @@ body {
     }
 }
 
-/*======= @media screen and (min-width:768px)===== */
 
 
 @media screen and (min-width:768px) {
