@@ -963,10 +963,10 @@ body {
     }
 
     .headerly {
-        max-width: 1440px;
+
         padding-top: 16px;
         padding-bottom: 16px;
-        margin: 0 auto;
+
     }
 
     .headerly-list {
@@ -1163,8 +1163,10 @@ body {
     /* --------- header ---------- */
 
     .headerly {
+        max-width: 1440px;
         padding-top: 24px;
         padding-bottom: 24px;
+        margin: 0 auto;
 
     }
 
@@ -1205,8 +1207,10 @@ body {
     /* ------about-------- */
 
     .about {
+        max-width: 1440px;
         padding-top: 120px;
         padding-bottom: 120px;
+        margin: 0 auto;
     }
 
     .about-title {
@@ -1246,7 +1250,9 @@ body {
 
     .work {
         display: flex;
+        max-width: 1440px;
         padding-bottom: 120px;
+        margin: 0 auto;
     }
 
     .work-title {
@@ -1292,8 +1298,10 @@ body {
     /*-----------customers------------ */
 
     .customers {
+        max-width: 1440px;
         padding-top: 120px;
         padding-bottom: 120px;
+        margin: 0 auto;
     }
 
     .customers-list {
