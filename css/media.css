@@ -3,12 +3,20 @@
         margin-bottom: 72px;
     }
 
+    .mob-list-icon {
+        justify-content: space-between;
+    }
 }
 
 @media screen and (min-width:428px) and (max-width:767px) {
 
     .customers-item:nth-child(2n) {
         margin-left: 16px;
+    }
+
+    .mob-list-icon {
+        justify-content: start;
+        gap: 56px;
     }
 }
 
